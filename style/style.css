@@ -8,6 +8,13 @@ body{
 
 
 }
+
+body, html {
+    
+    height: 100%; 
+
+
+}
 ::-webkit-scrollbar-thumb{
 
     background-color:#BFBFBF; 
@@ -37,7 +44,9 @@ body{
 .col-left {
     width: 30%; 
     max-width: 220px;  
-    
+   
+     
+
 
 }
 
@@ -48,7 +57,7 @@ body{
     display: flex; 
     align-items: center;
     justify-content: center;
-    
+    box-shadow: 0px 0px 10px 0px #00000040;
 }
 
 .logo h1{
@@ -150,6 +159,21 @@ body{
 
 }
 
+main#main{
+
+    height: 100%; 
+
+
+}
+
+nav.left{
+
+    box-shadow: 0px 0px 10px 0px #00000040;
+    max-width: 220px;
+    height: 100%;  
+    
+}
+
 
 .contentUser  {
 
@@ -178,8 +202,6 @@ body{
 aside.right{
 
     width: 220px; 
-    
-   
     margin: 20px 45px 0 0; 
   
 }
@@ -282,6 +304,8 @@ aside.right{
 
 
 
+
+
 .conteudo .p{
 
     font-size: 12px; 
@@ -317,4 +341,114 @@ aside.right{
 
 }
 
+.video {
 
+    position: relative; 
+
+
+}
+.testar{
+
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+
+
+
+}
+
+.videu{
+
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+
+.img-fluid{
+
+    max-width: 783px!important ; 
+    
+
+}
+
+.centerContent{
+
+    margin-left: 45px; 
+
+}
+
+.centerContent .video h1{
+
+    font-size: 20px;
+    line-height: 25px;
+    color: #ED7839; 
+    margin: 20px 0 20px 0 ; 
+
+}
+
+
+.col-sm-3{
+
+    max-width: 242px!important;
+    margin: 0 45px 0 31px; 
+}
+
+
+.navegacaoMain li{
+
+    border-bottom: 1px solid #E7E7E7; 
+
+}
+.navegacaoMain a{
+
+    line-height: 18.75px; 
+    color: #725C5C ;
+    font: normal 500 15px 'Quicksand', sans-serif;
+    
+}
+#sectionThree {height: 180px;}
+
+     
+
+
+
+#sectionThree .subtituloResumo{
+
+    height: 45px;   
+    background-color: #FDF1EB; 
+    border: 1px solid #ECECEC; 
+    font: normal 500 20px 'Roboto', sans-serif; 
+    line-height: 45px;
+    text-indent: 15px;
+}
+
+#sectionThree .contentresumo{
+
+    height: 189px; 
+    border: 1px solid #ECECEC; 
+    overflow-y: hidden; 
+       
+
+}
+
+#sectionThree .mostrarConteudo{
+    height: 439px; 
+    border: 1px solid #ECECEC; 
+    transition: 0.2s;
+}
+
+
+#sectionThree .contentresumo p{
+
+    font: normal 400 14px 'Quicksand', sans-serif; 
+    padding: 15px; 
+
+}
+
+#sectionThree .mostrarConteudo p{ 
+
+    font: normal 400 14px 'Quicksand', sans-serif; 
+    padding: 15px; 
+
+}
