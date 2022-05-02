@@ -112,15 +112,15 @@
                 <aside class="right ">
                 
                         <div class="botoes">
-                            <button class="btn btn-primary  buttons button-especial">
+                            <button class="btn btn-light  buttons button-especial">
                                 <img src="assets/dois.svg" alt="logo-btn" />
                                 Download
                 
                             </button>
-                            <button class="btn btn-primary buttons button-secondary">
+                            <button class="btn btn-light buttons button-secondary">
                                     <img src="assets/.svg">
                             </button>
-                            <button class="btn btn-primary button-secondary">
+                            <button class="btn btn-light button-secondary">
                                 <img  class="buttons" src="assets/doi.svg" al="teste"/>
                             </button>
                         </div>
@@ -176,7 +176,7 @@
                    <h2 class="subtituloResumo">Resumo</h2>
                    <p class="resumo">
                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, reiciendis! Explicabo aliquid perspiciatis velit iste deserunt eius placeat nostrum laudantium harum molestias? Vitae similique dolore iste doloremque quod non Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, veniam maxime exercitationem natus distinctio consequuntur harum minus repellendus incidunt adipisci quam optio iste ducimus culpa suscipit, aspernatur dolore esse nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, qui tenetur esse quo corrupti quaerat aliquam excepturi dolorum ipsam, minima cumque dignissimos numquam deserunt veniam autem enim in vitae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas dolores modi doloremque molestiae 
-                       <button id="teste" style="border: none; outline: none; background-color: transparent; color: blue; ">Ver mais.. </button>
+                       <button id="readMore">Ver mais.. </button>
   
   
                    </p>
@@ -198,7 +198,7 @@
 
                     <div class="row">
                         <div class="col-sm-11 p-0 ">
-                            <div class="content-for">
+                            <div class="content-for" id="criador">
                                 <h2 class="subtituloResumo">Discussões</h2>
                                 <div class="row">
                                     <div class="col-sm-12">
@@ -225,7 +225,7 @@
     
                                                 <p class="paragraphFor">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
 
-                                                <button class="btn botaoFor">
+                                                <button class="btn botaoFor" id="cadastrarTopico">
                                                     <span class="icon-expan">
                                                         <img src="assets/icon-criar.svg"/>
                                                     </span>
@@ -235,6 +235,58 @@
                                             </div>
 
                                         </div>
+                                        
+                                        <div class="col-sm-12">
+
+                                            <div class="CadastroDuvidas displayNone" id="CadastroDuvidas">
+
+                                                <div class="content-for">
+                                                    <h2 class="subtituloResumo">Discussões</h2>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="contentCont" >
+                                                                <h3 class="subtitleduvidas text-center">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h3>
+                    
+                                                            </div>
+                                                            <div class="inputAsk">
+
+                                                                <form>
+                                                                    <label>Assunto</label>
+                                                                    <div class="askone">
+                                                                        
+                                                                            <input type="text" class="form-control" 
+                                                                            id="valueInput"
+                                                                            placeholder="Defina um tópico sucinto para notificar os autores...">
+                                                                    </div>
+                                                                    <label>Conteúdo</label>
+                                                                    <div class="asktwo">
+
+                                                                            <input type="text" class="form-control" class="mudar">
+                                                                    
+                                                                        <div class="d-flex">
+                                                                            <div class="contrast">
+                                                                                <img src="assets/Shape.svg" class="shape" alt="shapeUm"/>
+                                                                                <img src="assets/ShapeUm.svg" alt="italico"/>
+                                                                            
+                                                                            </div>
+                                                                            <button class="btn buttonRecovery" >Enviar</button>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+
+                                                                </form>
+                                                            </div>
+
+                    
+                    
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
                                         <div class="col-sm-12">
                                             <div class="topicos">
                                                 <div class="topicoUm">
@@ -282,7 +334,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -314,23 +366,6 @@
     
     
     
-    <script>
-
-        //testar algumas coisas.
-
-        const teste = document.getElementById('teste'); 
-        const divisoria = document.querySelector('#divDinamica'); 
-
-        
-        teste.addEventListener('click', ()=> {
-
-            divisoria.classList.remove('contentresumo');    
-            divisoria.classList.add('mostrarConteudo'); 
-            teste.style.display = 'none'; 
-        }); 
-
-
-
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>

@@ -235,7 +235,8 @@ aside.right{
 
 
 }
-.btn-primary{
+.btn-light{
+    color: white!important; 
     vertical-align: middle;
     background-color: #ED7839!important;
     border-color:#ED7839!important;
@@ -243,11 +244,14 @@ aside.right{
    
 }
 
+
 .button-especial{
 
     width: 120px!important;
 
 }
+
+
 .buttons img{
 
     height: 19px; 
@@ -262,6 +266,14 @@ aside.right{
     width: 43px; 
 
 }
+.button-especial:hover, 
+.button-secondary:hover{
+
+    background-color: #BA5E2D!important;
+    border-color:  #BA5E2D!important; 
+    outline:1px solid  #BA5E2D!important; 
+}
+
 
 
 .right .subtitleRight{
@@ -468,6 +480,16 @@ aside.right{
 
 }
 
+#sectionThree #readMore{
+
+    border: none; 
+    outline: none; 
+    background-color: transparent; 
+    color: #ED7839 ;
+    font-weight: 900;
+
+}
+
 #sectionThree .col-sm-11,
 #forSection .col-sm-11
  {
@@ -482,6 +504,13 @@ aside.right{
 #forSection{
 
     margin-top: 30px;
+
+}
+
+
+.subtitleduvidas{
+
+    font:normal 400 14px 'Quicksand', sans-serif; 
 
 }
 
@@ -599,5 +628,98 @@ aside.right{
     line-height: 18.62px; 
     color: #757575; 
     margin-right: 15px;
+
+}
+
+
+
+
+label{
+
+    display: block; 
+    color: #ED7839; 
+    font-weight: 700; 
+
+}
+
+.cadastroDuvidas{
+    display: block; 
+
+
+}
+#valueInput{
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    height: 39px;
+}
+
+.contrast{
+
+    border: 1px solid rgba(0, 0,0, 0.3); 
+    height: 31px; 
+    background-color: #EAF1F2;
+    padding: 0 29px;    
+    width: calc(100% - 205px)
+
+}
+
+
+.contrast .shape{
+
+    margin-right: 30px; 
+
+}
+
+.asktwo .form-control{
+
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    height: 82px;
+    border-bottom: 1px solid transparent; 
+
+}
+
+.constrast{
+
+    border-bottom-left-radius: 3px; 
+
+}
+
+.asktwo .btn{ 
+
+    border-bottom-left-radius: 0; 
+    border-top-left-radius: 0; 
+}
+
+.buttonRecovery{
+
+    width: 205px; 
+    
+    border-bottom-right-radius: 3px; 
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    color: white; 
+
+}
+
+
+
+/* estilos de controle */
+
+
+.displayNone {
+
+
+    display: none; 
+
+}
+
+
+.displayBlock {
+
+    display: block; 
 
 }
