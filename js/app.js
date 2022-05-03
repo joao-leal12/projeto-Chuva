@@ -6,9 +6,9 @@
     const criador = document.querySelector('#criador');
     const assunto = document.querySelector('#valueInput');
     const descricao = document.querySelector('#contentassunt'); 
-    const enviar = document.querySelector('#enviarResposta')
-    const answers = document.getElementById('answersTopics')
-    let x = 0 
+    const enviar = document.querySelector('#enviarResposta');
+    const answers = document.getElementById('answersTopics');
+    const carregamento = document.querySelector('#Carregametoconcluido');
     teste.addEventListener('click', ()=> {
 
         divisoria.classList.remove('contentresumo');    
@@ -29,8 +29,7 @@
     enviar.addEventListener('click', e => {
         e.preventDefault(); 
         
-
-
+        
             
         if(assunto.value !== '' && descricao.value !== ''){
               
@@ -70,7 +69,8 @@
             answers.appendChild(expanResposta)
             
 
-        }    
+
+        };     
 
         assunto.value = ''; 
         descricao.value = ''; 

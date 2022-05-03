@@ -781,3 +781,63 @@ label{
 
 
 }
+
+
+
+
+.subtitleloading{
+
+    font:normal 700 18px 'Roboto', sans-serif;
+    color: #ED7839;
+
+
+
+
+}
+
+
+
+.firstPload{
+
+    font:normal 400 14px 'Quicksand', sans-serif ; 
+
+
+}
+
+
+
+.secondPload{
+
+
+    font: normal 500 14px 'Quicksand', sans-serif ;    
+    color: #ED7839;
+
+}
+
+
+.quadro{
+
+    height: 148px;
+    border: 1px solid black;        
+     
+
+
+}
+
+
+
+
+.subtitleQuadro{
+
+    font:normal 700 16px 'Quicksand', sans-serif; 
+
+}
+
+
+
+.imagem-fluida{
+
+    width: 30px;
+    height: 23.22px; 
+
+}
