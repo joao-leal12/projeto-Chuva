@@ -583,6 +583,24 @@ aside.right{
 
 }
 
+.subtituloDinamico{
+
+    
+    font-weight: 700!important; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 16px!important; 
+    line-height: 15px; 
+    color: #ED7839;
+
+}
+
+.expansaoDinamica{
+
+    display: inline-block; 
+    font-size: 12px; 
+    line-height: 15px; 
+
+}
 
 .topicos .expansaoTopicos{
 
@@ -599,6 +617,13 @@ aside.right{
 
 }
 
+.paragrafoDinamico{
+
+    font-size: 14px!important; 
+    font-weight: 400!important; 
+    font-family: 'Quicksand', sans-serif!important;
+
+}
 
 
 .topicos .paragrafoExpansao{
@@ -721,5 +746,38 @@ label{
 .displayBlock {
 
     display: block; 
+
+}
+
+
+/* classes dinamicas */
+
+.tituloDinamico{
+
+    font-size: 12px; 
+    font-weight: 700; 
+    font-family:'Quicksand', sans-serif; 
+    line-height:15px; 
+    color: #5C5C5C ; 
+
+
+}
+
+
+.paragrafoDinamico{
+
+    font-size: 14px; 
+    font-family: 'Quicksand', sans-serif; 
+    line-height: 17px; 
+    
+    color:#4D4D4D  ; 
+
+}
+
+
+.respostasTopicos{
+
+    padding: 23px; 
+
 
 }
