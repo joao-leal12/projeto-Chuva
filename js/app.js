@@ -9,6 +9,15 @@
     const enviar = document.querySelector('#enviarResposta');
     const answers = document.getElementById('answersTopics');
     const carregamento = document.querySelector('#Carregametoconcluido');
+    const btnBack = document.getElementById('btnCarregamento'); 
+    
+    
+    
+    
+        console.log(btnBack)
+    
+    
+    
     teste.addEventListener('click', ()=> {
 
         divisoria.classList.remove('contentresumo');    
@@ -28,8 +37,9 @@
 
     enviar.addEventListener('click', e => {
         e.preventDefault(); 
-        
-        
+        carregamento.classList.toggle('displayNone'); 
+        cadastro.classList.toggle('displayNone'); 
+
             
         if(assunto.value !== '' && descricao.value !== ''){
               
@@ -77,3 +87,11 @@
             
 
     });
+
+
+    btnBack.addEventListener('click', ()=> {
+
+        carregamento.classList.toggle('displayNone'); 
+        cadastro.classList.toggle('displayNone');    
+
+    } );
