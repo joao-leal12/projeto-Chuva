@@ -95,3 +95,21 @@
         cadastro.classList.toggle('displayNone');    
 
     } );
+
+
+    
+    function aplicarEstilo() {
+
+       let width =  window.innerWidth
+
+            if(width <= 576){
+
+                aplicandoEstilo(); 
+
+            }
+
+            
+       
+    }; 
+
+ 
