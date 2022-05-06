@@ -922,7 +922,7 @@ label{
 
 }
 
-@media (min-width: 577px ) and ( max-width: 768px) {
+@media (min-width: 578px ) and ( max-width: 768px) {
 
     
     ::-webkit-scrollbar{
@@ -939,6 +939,572 @@ label{
         
     }
 
+   
+    
+    .col-left{
+        width: 20%; 
+
+
+    }
+
+
+  
+    .botoes{
+
+        padding: 0 7px; 
+
+    }
+
+
+
+    .center{
+
+        width: 80%; 
+
+
+    }
+
+    .content-headerCenter{
+
+        width: 70%; 
+      
+    }
+
+    .content-headerRight{
+
+       
+        display: flex; 
+        
+        justify-content: center;
+    }
+
+.center .content-headerCenter p{
+
+
+    font-size: 10px; 
+    font-weight: 400;   
+ 
+
+}
+
+
+.center .content-headerCenter h2{
+
+
+    font-size: 13px; 
+    line-height: 14.78px; 
+    font-weight: 400; 
+    
+ 
+
+
+}
+   
+nav.left{
+
+    box-shadow: 0px 0px 10px 0px #00000040;
+    max-width: 220px;
+    height: 80px;
+
+     
+    
+     
+    
+}
+
+
+    
+
+
+main .col-md-3{
+   
+   
+    max-width: 100%!important; 
+    margin-top: 35%;; 
+    
+
+}
+
+.navegacaoMain{
+
+    display: flex!important;
+    flex-direction: row!important;  
+    justify-content: space-around!important;
+
+
+}
+
+
+.left .img-left{
+
+    display: none; 
+
+}
+
+
+main .col-md-2{
+
+    width: 100%!important; 
+   
+
+}
+
+.logo{
+
+    height: 68px; 
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px #00000040;
+}
+
+.logo h1{
+
+    font-size: 15px; 
+    line-height: 20.16px; 
+    font-weight: 700;
+    color: white; 
+
+}
+
+.contentUser{
+
+    display: none; 
+
+
+}
+
+
+
+
+
+.content-headerRight .Language select{
+    text-align: left; 
+    appearance: none;
+    width: 60px;
+    height: 34px; 
+    background: url('../assets/dropdown.svg') no-repeat 45px; 
+    padding-left: 9px;
+    border-radius: 3px; 
+    border: 1px solid #CCCCCC; 
+    color: #333333; 
+    font-weight: 400;
+    font-size: 12px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-headerRight .Language {
+    display: none; 
+    max-width: 97px; 
+    height: 34px; 
+    margin-right: 0; 
+    margin-left: 0;
+}
+
+
+
+
+.content-headerRight .picture{
+
+    height: 48px;;
+    max-width: 48px; 
+    position: relative; 
+    
+
+}
+.content-headerRight .img{
+
+    border-radius: 50%; 
+    height: 40px; 
+    max-width: 40px; 
+
+}
+
+.content-headerRight .editable{ 
+
+
+    position: absolute; 
+    top: -2px; 
+    right: 7px;
+    border-radius: 12px; 
+    
+
+}
+
+nav.left{
+
+    box-shadow: 0px 0px 10px 0px #00000040;
+    max-width: 100%; 
+    width: 100%;  
+    min-height: 1px; 
+    height: 40px; 
+    
+    
+     
+    
+}
+
+
+.col-md-2{
+
+   
+    height: 40px; 
+    width: 100%;    
+
+}
+
+
+.navegacaoMain li{
+
+    border-bottom: none; 
+
+}
+
+
+
+.navegacaoMain .nav-link{
+
+    padding: 8px; 
+    text-decoration: none; 
+
+
+}
+.navegacaoMain a{
+
+    line-height: 12.75px; 
+    color: #725C5C ;
+    font: normal 500 13px 'Quicksand', sans-serif;
+    
+}
+
+
+.conteudo{
+    
+    max-width: 100%; 
+
+  
+    
+}
+
+
+#autores, 
+.universidades{
+
+    columns: 2;  
+
+  }
+
+  
+
+  
+  
+  .videoCenter .col-md-12{
+
+    width: 100%!important; 
+    height: 200px!important;
+    
+    }
+
+  .centerContent{
+
+      
+      width: 100%; 
+  }
+
+  .centerContent .video{
+      
+      padding: 7px; 
+      
+    }
+
+    .centerContent .video h1{
+        text-align: center; 
+        font-size: 14px;
+        line-height: 15px;
+        color: #ED7839; 
+        margin: 15px 0;  
+
+    }
+
+
+
+    .col-md-7{
+        
+        max-width: 100%!important;
+        margin:0; 
+        
+    }
+
+
+    #sectionThree{
+        
+        margin-top:80px; 
+        
+        
+        }
+
+    #sectionThree .row{
+        
+        max-width: 100%!important;    
+        
+    }   
+
+    #sectionThree .contentresumo p{
+
+        font: normal 400 13px 'Quicksand'; 
+        padding: 15px; 
+        
+        
+    }
+
+    
+    #sectionThree .col-md-11,
+    #forSection .col-md-11{
+
+        margin-left: 0px!important; 
+        
+    }
+    
+    #sectionThree .contentresumo{
+        
+        height: 260px; 
+        border: 1px solid #ECECEC; 
+        overflow-y: hidden; 
+
+    }
+    
+    #sectionThree .mostrarConteudo{
+        
+        height: 550px;  
+        border: 1px solid #ECECEC; 
+        transition: 0.2s;
+        
+    }
+    
+    
+    #sectionThree .mostrarConteudo p{
+        
+        font: normal 400 13px 'Quicksand'; 
+        
+        
+    }
+
+    
+    #sectionThree, 
+    #forSection{
+        
+        position: static!important; 
+         
+    }
+    
+    #sectionThree .container,
+    #forSection .container{
+
+        max-width: 100%!important; 
+
+
+    }
+
+    aside.right{
+        height: 300px; 
+        width: 100%; 
+        
+        
+    }
+
+    
+    .right{
+        
+        
+      
+        display: flex; 
+        flex-direction: column ; 
+        
+        
+        
+    }
+
+    .right .botoes{
+
+        order: 3; 
+
+    }
+
+    .right .direitoS{
+
+        order: 2; 
+
+
+    }
+  
+    .right .divSub{
+
+        order: 1; 
+
+    }
+
+    .destaque{
+    
+        padding: 0 12px; 
+        background-color:#FDF1EB ; 
+        padding: 11px 15px 9px 15px; 
+    }
+    .destaque h3{
+
+        font-size: 20px; 
+       
+
+    }
+
+     .conteudo h4.h4{
+
+        font-size: 16px!important ; 
+
+
+    }
+    .ContentCenter{
+
+        overflow: initial ; 
+        height: 240px ; 
+
+    }
+
+
+    
+ .subtituloResumo{
+
+    height: 45px;   
+    background-color: #FDF1EB; 
+    border: 1px solid #ECECEC; 
+    font: normal 500 18px 'Roboto', sans-serif; 
+    line-height: 45px;
+    text-indent: 15px;
+}
+
+    .subtitlefor{
+
+        color: #ED7839 ; 
+        font: normal 700 16px 'Roboto', sans-serif; 
+    }
+
+
+    #forSection .paragraphFor{
+
+        font: normal 400 12px 'Quicksand', sans-serif; 
+        line-height: 19.25px; 
+        max-width: 626px; 
+        margin: 0 auto; 
+    
+    }
+
+    .topicos .topicoUm h3.subtitleTopicos, 
+    .topicos .topicoDois h3.subtitleTopicos{
+
+
+   
+    font-weight: 700!important; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 14px!important; 
+    line-height: 15px; 
+    color: #ED7839; 
+
+}
+
+    
+.topicoUm .maisInfor,
+.topicoUm #iconesTopicos,
+.topicoDois .maisInfor,
+.topicoDois #iconesTopicos{
+
+    border: 0; 
+    outline: 0; 
+    background-color: transparent; 
+
+
+}
+
+
+
+.topicos .topicoUm h3.subtitleTopicos, 
+.topicos .topicoDois h3.subtitleTopicos{
+
+
+   
+    font-weight: 700!important; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 14px!important; 
+    line-height: 13px; 
+    color: #ED7839; 
+
+}
+
+
+.topicos .expansaoTopicos{
+
+    display: inline-block; 
+    font-size: 11px; 
+    line-height: 13px; 
+
+}
+
+.topicos .paragrafoExpansao{
+
+    font-size: 12px!important; 
+    font-weight: 400!important; 
+    font-family: 'Quicksand', sans-serif!important;
+}   
+
+
+
+    .left li a:hover{ 
+
+        color: #ED7839; 
+
+    }
+
+    .expansionHeader{
+
+        font-size: 13px; 
+
+
+    }
+
+    
+    
+    
+    .video img{ 
+        
+        width: 100%; 
+       
+        height: auto; 
+    }
+    
+    
+    #forSection .col-md-12{
+
+
+        padding: 0!important; 
+
+
+    }
+    
+    
+    footer{
+         
+      display: none!important; 
+  
+    }
+
 
    
 
@@ -947,7 +1513,7 @@ label{
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 577px) {
 
     ::-webkit-scrollbar{
     
@@ -973,7 +1539,11 @@ label{
 
 
   
-  
+    .botoes{
+
+        padding: 0 7px; 
+
+    }
 
 
 
@@ -1492,20 +2062,32 @@ nav.left{
 
     }
 
-  footer{
-       
-    display: none!important; 
+    
+    
+    
+    .video img{ 
+        
+        width: 100%; 
+        
+        height: auto; 
+    }
+    
+    
+    #forSection .col-md-12{
 
-  }
+
+        padding: 0!important; 
 
 
+    }
+    
+    
+    footer{
+         
+      display: none!important; 
+  
+    }
 
-  .video img{ 
-
-    width: 100%; 
-   
-    height: auto; 
-}
 
 
 
