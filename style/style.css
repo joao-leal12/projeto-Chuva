@@ -922,7 +922,250 @@ label{
 
 }
 
-@media (min-width: 578px ) and ( max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    ::-webkit-scrollbar{
+    
+        background: #E7E7E7; 
+        width: 0px; 
+        height: 0px; 
+        
+      }   
+    
+    
+  ::-webkit-scrollbar-thumb{
+        
+        background-color:#BFBFBF; 
+        height: 0px; 
+        
+    }
+   
+    .col-left{
+
+        width: 20%;
+
+
+    }
+
+
+
+    .logo h1{
+
+        font-size: 20px; 
+
+
+    }
+
+    .expansionHeader{
+
+        font-size: 13px; 
+    
+    
+    }
+
+
+
+    .center .content-headerCenter{
+
+        max-width: 40%; 
+        line-height: 10px; 
+        
+    
+    }
+    
+
+   
+    
+    .center .content-headerCenter p{
+
+
+        font-size: 10px; 
+        font-weight: 400;   
+        margin-bottom: 0!important; 
+
+    }
+
+
+    .center .content-headerCenter h2{
+
+
+        font-size: 14px; 
+        white-space: nowrap; 
+        line-height: 25.78px; 
+        font-weight: 400; 
+        margin-bottom: 0!important; 
+
+
+    }
+
+    .content-headerRight{
+
+        height: 68px; 
+        
+        
+    }
+
+    .content-headerRight .Language {
+
+        max-width: 77px; 
+        height: 34px; 
+        margin-right: 22px; 
+        margin-left: 110px;
+    }
+
+
+
+
+    .content-headerRight .Language select{
+        text-align: center; 
+        appearance: none;
+        width: 77px;
+        height: 34px; 
+        background: url('../assets/dropdown.svg') no-repeat 80px, url('../assets/language\ image.svg') no-repeat left center ; 
+        padding: 0 15px ;
+        border-radius: 3px; 
+        border: 1px solid #CCCCCC; 
+        color: #333333; 
+        font-weight: 400;
+
+    }
+
+
+    .content-headerRight .picture{
+
+        height: 48px;;
+        max-width: 48px; 
+        position: relative; 
+        
+
+    }
+    .content-headerRight .img{
+
+        border-radius: 50%; 
+        height: 40px; 
+        max-width: 40px; 
+
+    }
+
+    .content-headerRight .editable{ 
+
+
+        position: absolute; 
+        top: -2px; 
+        right: 7px;
+        border-radius: 12px; 
+        
+
+    }
+
+.contentUser{
+
+    display: none;  
+
+}
+
+nav.left{
+
+    position: relative!important; 
+
+
+}
+
+nav .img-left{
+
+    width: 100%; 
+     
+
+}
+
+
+nav .img-left img{
+
+    width: 100%; 
+    
+
+}
+
+.video{
+    width: 100%; 
+    height: auto;
+
+}
+
+.img-fluid{
+
+    max-width: 100%!important; 
+
+
+}
+
+.video img{
+    width: 100%; 
+    
+    height: 300px; 
+    max-height: 400px; 
+
+}
+
+.video h1{
+
+    text-align: center;
+
+}
+
+#referenciasRight{
+
+    display: none!important; 
+
+
+}
+
+.centerContent .video{
+      
+    padding: 0; 
+    
+  }
+
+
+
+.col-md-7{ 
+
+    margin: 10px auto!important; 
+    flex-grow: 1!important;  
+}
+
+.videoCenter .col-md-12{
+
+   
+    height: 200px!important;
+    
+    }
+
+
+
+    
+#sectionThree .col-md-11,
+#forSection .col-md-11
+ {
+
+    margin-left: 60px!important; 
+
+}
+
+
+
+    footer img{
+        
+        width: 100%; 
+
+
+    }
+
+
+ 
+}
+
+@media (min-width: 576px ) and ( max-width: 768px) {
 
     
     ::-webkit-scrollbar{
@@ -986,6 +1229,9 @@ label{
  
 
 }
+
+
+
 
 
 .center .content-headerCenter h2{
@@ -1216,9 +1462,8 @@ nav.left{
     }
 
   .centerContent{
-
       
-      width: 100%; 
+    width: 100%; 
   }
 
   .centerContent .video{
@@ -1238,9 +1483,9 @@ nav.left{
 
 
 
-    .col-md-7{
-        
-        max-width: 100%!important;
+    .videoCenter{
+         
+        width: 100%;
         margin:0; 
         
     }
