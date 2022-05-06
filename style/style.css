@@ -1064,11 +1064,25 @@ label{
 
 }
 
+
+main#main {
+
+    position: relative; 
+
+}
+.col-md-2{
+
+  height: 100%!important; 
+   
+  
+
+}
+
 nav.left{
 
     position: relative!important; 
-
-
+    height: 100%; 
+   
 }
 
 nav .img-left{
@@ -1085,6 +1099,7 @@ nav .img-left img{
     
 
 }
+
 
 .video{
     width: 100%; 
@@ -1145,10 +1160,21 @@ nav .img-left img{
 
     
 #sectionThree .col-md-11,
-#forSection .col-md-11
+#forSection .col-md-11, 
+.topicos
+
  {
 
     margin-left: 60px!important; 
+
+}
+
+#sectionThree .contentresumo p{
+
+    font: normal 400 12px 'Quicksand'; 
+    padding: 15px; 
+    
+
 
 }
 
